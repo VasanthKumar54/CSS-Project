@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+      .header {
+        background-color: #173271;
+      }
+      ul{
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        align-items: self-end;
+      }
+      li{
+        list-style: none;
+        display: inline-flex;
+        justify-content: space-between;
+        padding: 12px 12px;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+      }
+      a{
+        text-decoration: none;
+        color: white;
+      }
+      .container{
+        display: flex;
+        /* background-color: aqua; */
+      }
+      .left{
+        height: 60vh;
+        width: 30vw;
+        /* background-color: #7485ac; */
+        padding: 40px 150px;
+        font-size: 18px;
+        font-family: sans-serif;
+      }
+      .right{
+        height: 60vh;
+        width: 50vw;
+        /* background-color: #37486f; */
+        padding: 40px;
+      }
+      .name, .city, .passion{
+        color: rgb(192, 10, 10);
+      }
+      h3{
+        font-family: sans-serif;
+      }
+      body{
+        background-color: #e7eaf0;
+      }
+      hr{
+        width: 500px;
+        height: 4px;
+        background-color: black;
+      }
+      .python{
+        font-size: 26px;
+        padding-left: 210px;
+      }
+      .Internship{
+        font-size: 26px;
+        padding-left: 210px;
+      }
+      img{
+        padding-left: 80px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <ul>
+          <div>
+            <li><img src="Mylogo.png" alt="Logo" height="40px" /></li>
+          </div>
+          <div class="nav">
+            <li class="home"><a href="index.html">Home</a></li>
+            <li class="About"><a href="About.html">About Me</a></li>
+            <li class="Education"><a href="Education.html">Education</a></li>
+            <li class="Projects"><a href="Projects.html">Projects</a></li>
+            <li class="Certificates"><a href="#">Certificates</a></li>
+            <li class="Contact"><a href="Contact.html">Contact Me</a></li>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="left"><span class="python">Python</span><hr><br><img src="Pyth.jpg" alt="jpg" height="450px" width="350px"></div>
+      <div class="right"><span class="Internship">Intrnship</span><hr><br><img src="Pyth.jpg" alt="jpg" height="450px" width="350px"></div>
+  </div>
+    <footer></footer>
+  </body>
+</html>
